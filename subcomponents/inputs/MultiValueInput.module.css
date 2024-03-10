@@ -1,0 +1,46 @@
+.inputTag,
+.inputTag:focus {
+  /* height: 31px; */
+  margin: 0;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  padding: 2rem;
+  margin: 1rem 0rem;
+  border: none;
+  background-color: #f7f7f7;
+}
+
+.addressBoxParent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem 2rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.addressBox {
+  border: 1px solid #ddd;
+  background: #f7f7f7;
+  color: #000000;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 5px;
+  margin: 0.3rem 5px;
+  border-radius: 10px;
+}
+.crossBtn {
+  /* color: #aaa; */
+  color: #000000;
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  cursor: pointer;
+  background: none;
+  padding: 0 0.4rem 0 1rem;
+  /* color: white; */
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+

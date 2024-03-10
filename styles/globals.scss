@@ -1,0 +1,226 @@
+@import "fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll !important;
+}
+
+body {
+  font-weight: 400;
+  font-family: system-ui, sans-serif !important;
+  color: #020202;
+  overflow-x: hidden;
+  padding-right: 0 !important;
+}
+
+body .SnackbarItem-message {
+  font-size: 14px;
+}
+
+.dash {
+  font-size: 1.6rem;
+  height: 100vh;
+  // display: flex;
+  // grid-template-columns: 25.16rem 1fr;
+  // background-color: #f8f8f8;
+  overflow: hidden;
+
+  &-right {
+    width: 100%;
+    position: relative;
+
+    &-wrapper {
+      height: calc(100% - 7.2rem);
+      overflow-y: scroll;
+      padding: 2.5rem;
+      background-color: #fff;
+    }
+
+    &-graph {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 2rem;
+
+      &-vol,
+      &-mark,
+      &-ear {
+        height: 25rem;
+        // box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        padding: 1.5rem 1.5rem;
+        background-color: #fff;
+        // border: 1px solid #f2f2f2;
+        border: 1px solid #ebeaea;
+      }
+
+      &-d {
+        font-size: 3.5rem;
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  // color: #fff;
+}
+
+.alink {
+  text-decoration: none;
+  color: #000;
+}
+
+a:active {
+  color: #868686;
+}
+
+.pd {
+  padding: 3rem;
+}
+
+.mr1 {
+  margin-right: 1rem;
+}
+.mr2 {
+  margin-right: 2rem;
+}
+.mr3 {
+  margin-right: 3rem;
+}
+.mr4 {
+  margin-right: 4rem;
+}
+.ml1 {
+  margin-left: 1rem;
+}
+.ml2 {
+  margin-left: 2rem;
+}
+.ml3 {
+  margin-left: 3rem;
+}
+.ml4 {
+  margin-left: 4rem;
+}
+.mt1 {
+  margin-top: 1rem;
+}
+.mt2 {
+  margin-top: 2rem;
+}
+.mt3 {
+  margin-top: 3rem;
+}
+.mt4 {
+  margin-top: 4rem;
+}
+.mb1 {
+  margin-bottom: 1rem;
+}
+.mb2 {
+  margin-bottom: 2rem !important;
+}
+.mb3 {
+  margin-bottom: 3rem;
+}
+.mb4 {
+  margin-bottom: 4rem;
+}
+
+.loader {
+  &-bg {
+    background-color: rgba(177, 177, 177, 0.349);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.5rem;
+    z-index: 2000;
+  }
+  border: 3px solid #ffffff;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border-top: 3px solid #2f62fd;
+  animation: spin 1s linear infinite;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loader2 {
+  border: 3px solid #ffffff;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border-top: 3px solid orange;
+  animation: spin 1s linear infinite;
+  text-align: center;
+  margin: 1rem auto;
+  z-index: 2000;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.collection-cards {
+  padding: 1rem;
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(33rem, 1fr));
+  grid-gap: 3rem;
+}
+
+.snackbar {
+  background-color: rebeccapurple;
+}
+
+
+// For hiding the insights page input selected nfts
+.css-1qqsdnr-MuiAutocomplete-root .MuiAutocomplete-tag{
+  display: none !important;
+}
+.notistack-SnackbarContainer{
+  z-index: 140000000000000000 !important;
+}
+.intercom-lightweight-app-launcher, .intercom-namespace .intercom-dfosxs{
+  display: none !important;
+}
+//.intercom-namespace .intercom-1d0pa5z{
+//  top: 50%;
+//}
+
+.MuiAppBar-root {
+  padding-right: 0 !important;
+}
+.MuiAutocomplete-input {
+  caret-color: transparent !important;
+}
+.CookieConsent {
+  bottom: 8px !important;
+}
+.reactEasyCrop_Container{
+  width: 100%;
+  height: 250px;
+}
+.MuiSelect-select {
+  min-height: 1.25em !important;
+}

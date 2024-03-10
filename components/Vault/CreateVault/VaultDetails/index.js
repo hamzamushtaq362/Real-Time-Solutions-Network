@@ -1,0 +1,1 @@
+export * from 'components/Vault/CreateVault/VaultDetails/VaultDetails'

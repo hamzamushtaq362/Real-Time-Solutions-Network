@@ -1,0 +1,26 @@
+.suggestedTagsListContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.suggestedTagsContainer {
+    margin-top:1rem;
+}
+
+.suggestedTagsLabel {
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #5D5D5B;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom:2rem;
+}
+
+.maxSelected {
+    margin-top:3rem;
+    color: #5D5D5B;
+    font-weight: 400;
+    margin-bottom:3rem;text-align: center;
+}

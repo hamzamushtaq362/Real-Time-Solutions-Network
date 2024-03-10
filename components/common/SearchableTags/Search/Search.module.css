@@ -1,0 +1,28 @@
+.tagsSearchInput {
+    padding:1rem;
+    width:100%;
+    border: 1px solid #DCE6F3;
+    border-left:none;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+}
+
+.tagsLabel {
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.searchInputContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchIconContainer {
+    padding:1rem;
+    border: 1px solid #DCE6F3;
+    border-right:none;
+    border-top-left-radius: 0.6rem;
+    border-bottom-left-radius: 0.6rem;
+}
